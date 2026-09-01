@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.7
+# syntax=docker/dockerfile:1.26
 
 FROM maven:3.9-eclipse-temurin-21-alpine AS builder
 WORKDIR /app
