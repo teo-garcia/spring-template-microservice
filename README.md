@@ -5,7 +5,7 @@
 **Production-ready Spring Boot microservice (NATS JetStream) with JPA/Flyway, Redis, health checks, and metrics**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk&logoColor=white)](https://openjdk.org)
+[![Java](https://img.shields.io/badge/Java-25-007396?logo=openjdk&logoColor=white)](https://openjdk.org)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4-6DB33F?logo=springboot&logoColor=white)](https://spring.io)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-336791?logo=postgresql&logoColor=white)](https://postgresql.org)
 
@@ -23,7 +23,7 @@ Part of the [@teo-garcia/templates](https://github.com/teo-garcia/templates) eco
 | **Database**      | PostgreSQL 18 + NATS JetStream, Spring Data JPA (Hibernate), Flyway                |
 | **Cache**         | Redis (Lettuce) + RedisTemplate                                   |
 | **Observability** | Actuator health, Prometheus, Micrometer Tracing (OTel), Logstash  |
-| **Type Safety**   | Java 21, `strict` validation, Checkstyle + Spotless               |
+| **Type Safety**   | Java 25, `strict` validation, Checkstyle + Spotless               |
 | **Testing**       | JUnit 5, MockMvc, Testcontainers, JaCoCo                          |
 | **Code Quality**  | Spotless (google-java-format), Checkstyle, structured logging     |
 | **DevOps**        | Docker (multi-stage), Compose, GitHub Actions CI/CD               |
@@ -32,7 +32,7 @@ Part of the [@teo-garcia/templates](https://github.com/teo-garcia/templates) eco
 
 ## Requirements
 
-- Java 21 (Temurin recommended)
+- Java 25 (Temurin recommended)
 - Maven 3.9+ (`./mvnw` wrapper included)
 - Docker and Docker Compose
 - PostgreSQL 18 + Redis (via Compose)
