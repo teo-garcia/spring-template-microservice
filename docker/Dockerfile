@@ -14,7 +14,7 @@ RUN apk add --no-cache dumb-init wget
 RUN addgroup -g 1001 -S spring && adduser -S spring -u 1001
 
 WORKDIR /app
-COPY --from=builder /app/target/spring-template-monolith-*.jar app.jar
+COPY --from=builder /app/target/spring-template-microservice-*.jar app.jar
 RUN chown spring:spring app.jar
 
 USER spring
